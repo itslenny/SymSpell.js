@@ -1,3 +1,4 @@
+/// <reference path="../typings/tsd.d.ts" />
 (function (MODES) {
     MODES[MODES["TOP"] = 0] = "TOP";
     MODES[MODES["SMALLEST"] = 1] = "SMALLEST";

@@ -10,7 +10,6 @@ var rl = readline.createInterface({
     terminal: false
 });
 rl.on('line', function (word) {
-    // if (!word) break;
     var suggestions = s.correct(word.trim(), '');
     for (var key in suggestions) {
         var suggestion = suggestions[key];

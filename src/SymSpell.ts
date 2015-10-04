@@ -1,6 +1,6 @@
+/// <reference path="../typings/tsd.d.ts" />
 
 export enum MODES { TOP, SMALLEST, ALL }
-declare var process;
 
 class DictionaryItem {
   suggestions: Array<number> = [];
@@ -19,7 +19,7 @@ class SuggestItem {
   count: number = 0;
 }
 
-export interface OptionsObj {
+interface OptionsObj {
   mode?: MODES,
   verbose?: number,
   editDistanceMax?: number
@@ -27,8 +27,6 @@ export interface OptionsObj {
 }
 
 export class SymSpell {
-
-
 
   //Dictionary that contains both the original words and the deletes derived from them
   dictionary: Object = {};
