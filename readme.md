@@ -29,6 +29,7 @@ version 3.0 (LGPL-3.0) as published by the Free Software Foundation.
     * enter a word for spelling corrections
     * CTRL+C to quit
 
+Note: the dictionary takes almost a minute to build on my laptop using the included big.txt word list.
 
 ##Contributions
 
